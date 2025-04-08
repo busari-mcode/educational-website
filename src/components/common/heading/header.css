@@ -51,6 +51,9 @@ header ul li a:hover {
     header ul.flexSB {
         display: none;
     }
+    header ul li {
+        margin-bottom: 20px;
+    }
     .toggle {
         display: block;
         background: none;
