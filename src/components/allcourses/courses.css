@@ -54,5 +54,9 @@
 .coursesCard .price {
     margin: 30px;
     background-color: #f8f8f8;
-    padding: 20px;
+    padding: 1px;
+}
+.coursesCard  h3 {
+    font-weight: 500;
+    color: #1eb2a6;
 }
