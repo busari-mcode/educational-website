@@ -1,13 +1,16 @@
 import React from 'react'
+import Title from '../../title/Title'
+import { coursesCard } from '../../../../dummydata'
 
 const HAbout = () => {
   return (
     <>
         <section className="homeAbout">
             <div className="container">
-                <section className='coursesCard'>
-                            <div className="container grid2">
-                                {coursesCard.map((val) => {
+                <Title subtitle='our courses' title='explore our popular online courses'/>
+                <div className='coursesCard'>
+                            <div className=" grid2">
+                                {coursesCard.slice(0, 3).map((val) => {
                                     return(
                                     <div className="items">
                                         <div className="content flex">
@@ -53,7 +56,7 @@ const HAbout = () => {
                                     )
                                 })}
                             </div>
-                </section>
+                </div>
             </div>
         </section>
     </>
